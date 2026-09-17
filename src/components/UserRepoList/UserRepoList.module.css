@@ -1,0 +1,34 @@
+.userRepoListHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+}
+
+.userRepoList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.repoItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+}
+
+.repoItem p {
+    margin: 0;
+}
+
+.repoInfo {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}

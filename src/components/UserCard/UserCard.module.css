@@ -1,0 +1,59 @@
+.userCard {
+    flex-direction: row;
+}
+.userInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.imageWrapper {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.imageWrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+.userInfoWrapper h2 {
+    margin: 0;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.userInfoWrapper p {
+    margin: 0;
+}
+
+.reposWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+@media (max-width: 400px) {
+    .userCard {
+        flex-direction: column;
+    }
+    .userInfoWrapper {
+        width: 100%;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .reposWrapper {
+        width: 100%;
+    }
+    .imageWrapper {
+        width: 100px;
+        height: 100px;
+    }
+}
